@@ -13,6 +13,7 @@
 		A39FE60D1ECEF79A00152314 /* iCalculate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39FE60B1ECEF79A00152314 /* iCalculate.xcdatamodeld */; };
 		A39FE60F1ECEF79A00152314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39FE60E1ECEF79A00152314 /* Assets.xcassets */; };
 		A39FE6121ECEF79A00152314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39FE6101ECEF79A00152314 /* LaunchScreen.storyboard */; };
+		A3A0F3311ECF259500255774 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0F3301ECF259500255774 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A39FE60E1ECEF79A00152314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A39FE6111ECEF79A00152314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39FE6131ECEF79A00152314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A0F3301ECF259500255774 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A39FE6191ECEF7F700152314 /* Supporting Files */,
 				A39FE6061ECEF79A00152314 /* ViewController.swift */,
 				A39FE6081ECEF79A00152314 /* Main.storyboard */,
+				A3A0F3301ECF259500255774 /* CalculatorBrain.swift */,
 			);
 			path = iCalculate;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39FE60D1ECEF79A00152314 /* iCalculate.xcdatamodeld in Sources */,
+				A3A0F3311ECF259500255774 /* CalculatorBrain.swift in Sources */,
 				A39FE6071ECEF79A00152314 /* ViewController.swift in Sources */,
 				A39FE6051ECEF79A00152314 /* AppDelegate.swift in Sources */,
 			);
@@ -316,6 +320,7 @@
 				A39FE6181ECEF79A00152314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
